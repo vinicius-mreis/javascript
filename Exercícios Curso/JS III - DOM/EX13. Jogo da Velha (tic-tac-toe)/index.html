@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./index.js" defer></script>
+</head>
+<body>
+    <div id="main">
+        <h1>Jogo da Velha</h1>
+        <div id="board" class="board">
+            <div class="row" id="row1">
+                <div class="cell" id="b1"></div>
+                <div class="cell" id="b2"></div>
+                <div class="cell" id="b3"></div>
+            </div>
+            <div class="row" id="row2">
+                <div class="cell" id="b4"></div>
+                <div class="cell" id="b5"></div>
+                <div class="cell" id="b6"></div>
+            </div>
+            <div class="row" id="row3">
+                <div class="cell" id="b7"></div>
+                <div class="cell" id="b8"></div>
+                <div class="cell" id="b9"></div>
+            </div>
+        </div>
+        <div id="turnDiv" class="turnDiv">
+            <p>Vez de: <span id="playerTurn"></span><p>
+        </div>
+        <button onclick="resetGame()">RESET</button>
+    </div>
+</body>
+</html>
